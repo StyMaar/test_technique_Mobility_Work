@@ -1,12 +1,13 @@
+const MILLION = require("./million.js");
 
 const TAX_RATE_EDGE_1 = 0.05;
 const TAX_RATE_EDGE_2 = 0.15;
 const TAX_RATE_EDGE_3 = 0.25;
 const TAX_RATE_EDGE_4 = 0.30;
 
-const LIMIT_4 = 500000000;
-const LIMIT_3 = 250000000;
-const LIMIT_2 = 50000000;
+const LIMIT_4 = 500*MILLION;
+const LIMIT_3 = 250*MILLION;
+const LIMIT_2 = 50*MILLION;
 
 
 module.exports = function(income){
