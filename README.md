@@ -20,3 +20,7 @@ Your annual income tax amount will be:
 
 > **Task :**
 Write a program in TDD to calculate the annual income tax above.
+
+## Structure du code 
+
+Le code réalisant le calcul se trouve dans `./index.js`, les tests étant dans `./test.js`.
